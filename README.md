@@ -225,14 +225,128 @@ article > p {
 # Summary
   In this article we've introduced CSS selectors, which enable you to target particular HTML elements. Next, we'll take a closer look at
 [type](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors),[class](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors),[and ID Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors)
+# Module 2: Applying CSS styles to HTML elements
+* Here,the very first thing we need to do is to tell the HTML document that we have some CSS rules we want it to use. There are three different ways to apply CSS to an HTML document that you'll commonly come across, Here we will treating them one after the other, then discuss on the most beautiful  ways of linking CSS from the head of your document 
+ # External stylesheet
+* An external stylesheet contains CSS in a separate file with a ```.css``` extension. This is the most common and useful method of bringing CSS to a document.<br>
+ You can link a single CSS file to multiple web pages, styling all of them with the same CSS stylesheet.<br> 
+ In the Getting started with CSS, we linked an external stylesheet to our web page.<br>
+You reference an external CSS stylesheet from an HTML ```<link>``` element:
+```
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <title>My CSS experiment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>This is my first CSS example</p>
+  </body>
+</html>
+ ```      
+The CSS stylesheet file might look like this:
+```
+   h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}p {color: red;
+}
+```
       
-
-
-
-
-
-
-
+The ```href``` attribute of the ```<link>``` element needs to reference a file on your file system.<br>
+In the example above, the CSS file is in the same folder as the HTML document, but you could place it somewhere else and adjust the path. Here are three examples:
+```
+<!-- Inside a subdirectory called styles inside the current directory -->
+<link rel="stylesheet" href="styles/style.css" />
+<!-- Inside a subdirectory called general, which is in a subdirectory called styles, inside the current directory -->
+<link rel="stylesheet" href="styles/general/style.css" />
+<!-- Go up one directory level, then inside a subdirectory called styles -->
+<link rel="stylesheet" href="../styles/style.css" />
+```
+      
+# Internal stylesheet
+* An internal stylesheet resides within an HTML document. To create an internal stylesheet, you place CSS inside a ```<style>``` element contained inside the HTML ```<head>```.
+The HTML for an internal stylesheet might look like this:
+```
+ <!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <title>My CSS experiment</title>
+    <style>
+      h1 {
+        color: blue;
+        background-color: yellow;
+        border: 1px solid black;
+      }
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>This is my first CSS example</p>
+  </body>
+</html>
+ ```
+      
+In some circumstances, internal stylesheets can be useful. For example, perhaps you're working with a content management system where you are blocked from modifying external CSS files.<br>
+But for sites with more than one page, an internal stylesheet becomes a less efficient way of working.<br> To apply uniform CSS styling to multiple pages using internal stylesheets, you must have an internal stylesheet in every web page that will use the styling. The efficiency penalty carries over to site maintenance too. With CSS in internal stylesheets, there is the risk that even one simple styling change may require edits to multiple web pages.
+# Inline styles
+* Inline styles are CSS declarations that affect a single HTML element, contained within a style attribute. The implementation of an inline style in an HTML document might look like this:
+```
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <title>My CSS experiment</title>
+  </head>
+  <body>
+    <h1 style="color: blue;background-color: yellow;border: 1px solid black;">
+      Hello World!
+    </h1>
+    <p style="color:red;">This is my first CSS example</p>
+  </body>
+</html>
+ ```
+      
+Avoid using CSS in this way, when possible. It is the opposite of a best practice.<br>
+      
+ * First, it is the least efficient implementation of CSS for maintenance. One styling change might require multiple edits within a single web page.<br>
+      
+ * Second, inline CSS also mixes (CSS) presentational code with HTML and content, making everything more difficult to read and understand. Separating code and content makes maintenance easier for all who work on the website.<br>
+      
+There are a few circumstances where inline styles are more common. You might have to resort to using inline styles if your working environment is very restrictive. For example, perhaps your CMS only allows you to edit the HTML body. You may also see a lot of inline styles in HTML email to achieve compatibility with as many email clients as possible.
+# Assessment
+# Playing with the CSS in this article
+For the exercise that follows, create a folder on your computer. You can name the folder whatever you want. Inside the folder, copy the text below to create two files:
+* index.html:
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My CSS experiments</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <p>Create your test HTML here</p>
+  </body>
+</html>
+```
+* styles.css:
+```
+/* Create your test CSS here */
+p {color: red;}
+```
+When you find CSS that you want to experiment with, replace the HTML <body> contents with some HTML to style, and then add your test CSS code to your CSS file.
+# Summary
+In this article, we have  looked at a number of ways in which you can style a document using CSS. We will be developing this knowledge as we move through the rest of the lessons. However, you now already know enough to style text, apply CSS based on different ways of targeting elements in the write-up.
 
 
 
