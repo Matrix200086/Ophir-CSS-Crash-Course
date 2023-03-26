@@ -119,6 +119,115 @@ This [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) elem
 Save your HTML and CSS files and go live. The level one heading at the top of the document should now be red. If that happens, congratulations — you have successfully applied some CSS to an HTML document. If that doesn't happen, carefully check that you've typed everything correctly.
 
 You can continue to work in ```style.css``` locally, or you can use our interactive editor below to continue with this tutorial. The interactive editor acts as if the CSS in the first panel is linked to the HTML document, just as we have with our document above.
+# **Understanding Basics CSS Selectors**
+# CSS Selectors
+* A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them. The element or elements which are selected by the selector are referred to as the subject of the selector.<br>
+```
+      h1{
+      color:blue;
+      background-color: yellow;}
+         p{
+      color:red;
+      }
+```
+* In other articles you may have met some different selectors, and learned that there are selectors that target the document in different ways — for example by selecting an element such as ```h1```, or a class such as ```.special```.<br>
+* In CSS, selectors are defined in the CSS Selectors specification; like any other part of CSS they need to have support in browsers for them to work. The majority of selectors that you will come across are defined in the [Level 3 Selectors Specification](https://www.w3.org/TR/selectors-3/) and [Level 4 Selectors Specification](https://www.w3.org/TR/selectors-4/) which are both mature specifications, therefore you will find excellent browser support for these selectors.<br>
+# Selector lists
+* If you have more than one thing which uses the same CSS then the individual selectors can be combined into a selector list so that the rule is applied to all of the individual selectors. For example, if I have the same CSS for an ```h1``` and also a class of ```.special```, I could write this as two separate rules.<br>
+ ```
+ h1 {
+  color: blue;
+}
+
+.special {
+  color: blue;
+}
+  ```  
+I could also combine these into a selector list, by adding a comma between them.
+
+```h1, .special {
+  color: blue;
+}
+```
+White space is valid before or after the comma. You may also find the selectors more readable if each is on a new line.
+```
+h1,
+.special {
+  color: blue;
+}
+```
+When you group selectors in this way, if any selector is syntactically invalid, the whole rule will be ignored.
+
+In the following example, the invalid class selector rule will be ignored, whereas the ```h1``` would still be styled.
+```
+h1 {
+  color: blue;
+}
+
+..special {
+  color: blue;
+}
+```
+When combined however, neither the ```h1``` nor the class will be styled as the entire rule is deemed invalid.
+```
+h1, ..special {
+  color: blue;
+}
+```
+# Types of selectors
+There are a few different groupings of selectors, and knowing which type of selector you might need will help you to find the right tool for the job. In this article's subarticles we will look at the different groups of selectors in more detail.
+
+# Type, class, and ID selectors
+This group includes selectors that target an HTML element such as an ```<h1>```.
+```
+h1 {
+}
+```
+It also includes selectors which target a class:
+```
+.box {
+}
+```
+or, an ID:
+```
+#unique {
+}
+```
+# Attribute selectors
+This group of selectors gives you different ways to select elements based on the presence of a certain attribute on an element:
+```
+a[title] {
+}
+```
+Or even make a selection based on the presence of an attribute with a particular value:
+```
+a[href="https://example.com"]
+{
+}
+```
+# Pseudo-classes and pseudo-elements
+This group of selectors includes pseudo-classes, which style certain states of an element. The ```:hover ``` pseudo-class for example selects an element only when it is being hovered over by the mouse pointer:
+```
+a:hover {
+}
+```
+It also includes pseudo-elements, which select a certain part of an element rather than the element itself. For example, ```::first-line``` always selects the first line of text inside an element (a ```<p>``` in the below case), acting as if a ```<span>``` was wrapped around the first formatted line and then selected.
+```
+p::first-line {
+}
+```
+# Combinators
+The final group of selectors combine other selectors in order to target elements within our documents. The following, for example, selects paragraphs that are direct children of ```<article>``` elements using the child combinator (```>```):
+```
+article > p {
+}
+```
+# Summary
+  In this article we've introduced CSS selectors, which enable you to target particular HTML elements. Next, we'll take a closer look at
+[type](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors),[class](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors),[and ID Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors)
+      
+
+
 
 
 
