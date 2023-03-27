@@ -347,6 +347,8 @@ p {color: red;}
 When you find CSS that you want to experiment with, replace the HTML <body> contents with some HTML to style, and then add your test CSS code to your CSS file.
 # Summary
 In this article, we have  looked at a number of ways in which you can style a document using CSS. We will be developing this knowledge as we move through the rest of the lessons. However, you now already know enough to style text, apply CSS based on different ways of targeting elements in the write-up.
+# The box model AND layout
+      
 
 
 
