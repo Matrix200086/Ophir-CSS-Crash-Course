@@ -347,26 +347,124 @@ p {color: red;}
 When you find CSS that you want to experiment with, replace the HTML <body> contents with some HTML to style, and then add your test CSS code to your CSS file.
 # Summary
 In this article, we have  looked at a number of ways in which you can style a document using CSS. We will be developing this knowledge as we move through the rest of the lessons. However, you now already know enough to style text, apply CSS based on different ways of targeting elements in the write-up.
-# The box model AND layout
+# Module:3 The box model and layout
+* Everything in CSS has a box around it, and understanding these boxes is the key to being able to create more complex layouts with CSS, or to align items with other items.<br>
+ In this lesson, we will take a look at the CSS Box Model.<br> You'll get an understanding of how it works and the terminology that relates to it.
+# Objectives
+* To learn about the CSS Box Model, what makes up the box model and how to switch to the alternate model.
+# What is the CSS box model?
+ The CSS box model as a whole applies to block boxes and defines how the different parts of a box — margin, border, padding, and content — work together to create a box that you can see on a page. Inline boxes use just some of the behavior defined in the box model
+# Parts of a box
+Making up a block box in CSS we have the:
+* Content box: The area where your content is displayed; size it using properties like inline-size and block-size or width and height.
+* Padding box: The padding sits around the content as white space; size it using padding and related properties.
+* Border box: The border box wraps the content and any padding; size it using border and related properties.
+* Margin box: The margin is the outermost layer, wrapping the content, padding, and border as whitespace between this box and other elements; size it using margin and related properties.<br>
       
+You can visit [Ophir css ](https://www.w3schools.com/css/css_boxmodel.asp)to see the diagram and more structure.
+# Box Model Behaviour
+## To discuss on box model behaviour, we shall treat this below:
+### Block and inline boxes
+In CSS we have several types of boxes that generally fit into the categories of block boxes and inline boxes. The type refers to how the box behaves in terms of page flow and in relation to other boxes on the page. Boxes have an inner display type and an outer display type.<br>
+      
+In general, you can set various values for the display type using the display property, which can have various values.
+### Outer display type
+If a box has an outer display type of block, then:
+* The box will break onto a new line.
+* The width and height properties are respected.
+* Padding, margin and border will cause other elements to be pushed away from the box.<br>
+      
+If width is not specified, the box will extend in the inline direction to fill the space available in its container. In most cases, the box will become as wide as its container, filling up 100% of the space available.<br>
+      
+Some HTML elements, such as ```<h1>```and ```<p>```, use block as their outer display type by default.
+      
+### Inner display type
+Boxes also have an inner display type, which dictates how elements inside that box are laid out.<br>
+      
+Block and inline layout is the default way things behave on the web. By default and without any other instruction, the elements inside a box are also laid out in normal flow and behave as block or inline boxes.<br>
+      
+You can change the inner display type for example by setting display: flex;. The element will still use the outer display type block but this changes the inner display type to flex. Any direct children of this box will become flex items and behave according to the Flexbox specification.<br>
+      
+When you move on to learn about CSS Layout in more detail, you will encounter flex, and various other inner values that your boxes can have, for example grid.<br>
+      
+Note: To read more on this, you can visit [Ophir css](https://www.w3schools.com/css/css_boxmodel.asp).
+# Examples of different display types
+The example below has three different HTML elements, all of which have an outer display type of block.
+* A paragraph with a border added in CSS. The browser renders this as a block box. The paragraph starts on a new line and extends the entire available width.
+* A list which is laid out using display: flex. This establishes flex layout for the children of the container, which are flex items. The list itself is a block box and — like the paragraph — expands to the full container width and breaks onto a new line.
+* A block-level paragraph, inside which are two ```<span>``` elements. These elements would normally be inline, however, one of the elements has a class of "block" which gets set to display: block.<br>
+      
+**Create two files, one as css file and another as html file in your interactive editor and type this as your CSS file**
+      
+``` 
+p, ul {border: 2px solid rebeccapurple; padding: .5em;}
+.block,li {border: 2px solid blue;padding: .5em;}
+ul {display: flex;list-style: none;}
+.block {display: block;}
+      
+```   
+**Also,type this as your html file**
+      
+```
+<!Doctype html>
+<html>
+<head></head>
+<body>
+<p>I am a paragraph. A short one.</p>
+<ul>
+  <li>Item One</li>
+  <li>Item Two</li>
+  <li>Item Three</li>
+</ul>
+<p>I am another paragraph. Some of the <span class="block">words</span> have been wrapped in a <span>span element</span>.</p>
+ </body>     
+ </html>
+ ```
+**In the next example, we can see how inline elements behave**
+      
+* The ```<span>``` elements in the first paragraph are inline by default and so do not force line breaks.
+* The ```<ul>``` element that is set to display: inline-flex creates an inline box containing some flex items.
+* The two paragraphs are both set to display: inline. The inline flex container and paragraphs all run together on one line rather than breaking onto new lines (as they would do if they were displaying as block-level elements).<br>
+      
+To toggle between the display modes, you can change display: inline to display: block or display: inline-flex to display: flex.<br>
+      
+**Create a CSS file and paste this**
+      
+```
+p, ul {border: 2px solid rebeccapurple;}
+span,li {border: 2px solid blue;}
+ul {display: inline-flex; list-style: none;padding: 0;} 
+.inline {display: inline;}     
+```
+**Also create an html file and paste**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```  
+<!Doctype html>
+<html>
+<head></head>
+<body>
+ <p> I am a paragraph. Some of the<span>words</span> have been wrapped in a
+<span>span element</span>.
+</p> <ul><li>Item One</li>
+<li>Item Two</li>
+<li>Item Three</li></ul><p class="inline">I am a paragraph. A short one.</p>
+<p class="inline">I am another paragraph. Also a short one.</p></body></html> 
+```
+The key thing to remember for now is: Changing the value of the display property can change whether the outer display type of a box is block or inline. This changes the way it displays alongside other elements in the layout.
+# To add complexity, there is a standard and an alternate box model.
+# By default, browsers use the standard box model.
+# The standard CSS box model
+In the standard box model, if you give a box an inline-size and a block-size (or width and a height) attributes, this defines the inline-size and block-size (width and height in horizontal languages) of the content box. Any padding and border is then added to those dimensions to get the total size taken up by the box.
+# The alternative CSS box model
+In the alternative box model, any width is the width of the visible box on the page. The content area width is that width minus the width for the padding and border . No need to add up the border and padding to get the real size of the box.
+To turn on the alternative model for an element, set box-sizing: border-box on it:<br>
+```.box {box-sizing: border-box;}```
+To use the alternative box model for all of your elements (which is a common choice among developers), set the box-sizing property on the ```<html>``` element and set all other elements to inherit that value, see this :
+```
+html {box-sizing: border-box;}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;}
+```
+To understand the underlying idea, you can read [Ophir Box Model](https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/),[Ophir Box Model write-up](https://www.washington.edu/accesscomputing/webd2/student/unit3/module4/lesson1.html),[Ophir write-up on Box Model Application](https://www.washington.edu/accesscomputing/webd2/student/unit3/module4/lesson2.html),[OPhir Page Layout with CSS Article](https://www.washington.edu/accesscomputing/webd2/student/unit3/module6/lesson1.html),[Ophir Stylizing Navigation Menu With CSS](https://www.washington.edu/accesscomputing/webd2/student/unit3/module6/lesson2.html)
