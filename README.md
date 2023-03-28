@@ -451,11 +451,11 @@ ul {display: inline-flex; list-style: none;padding: 0;}
 <p class="inline">I am another paragraph. Also a short one.</p></body></html> 
 ```
 The key thing to remember for now is: Changing the value of the display property can change whether the outer display type of a box is block or inline. This changes the way it displays alongside other elements in the layout.
-# To add complexity, there is a standard and an alternate box model.
-# By default, browsers use the standard box model.
-# The standard CSS box model
+## To add complexity, there is a standard and an alternate box model.
+### By default, browsers use the standard box model.
+#### The standard CSS box model
 In the standard box model, if you give a box an inline-size and a block-size (or width and a height) attributes, this defines the inline-size and block-size (width and height in horizontal languages) of the content box. Any padding and border is then added to those dimensions to get the total size taken up by the box.
-# The alternative CSS box model
+#### The alternative CSS box model
 In the alternative box model, any width is the width of the visible box on the page. The content area width is that width minus the width for the padding and border . No need to add up the border and padding to get the real size of the box.
 To turn on the alternative model for an element, set box-sizing: border-box on it:<br>
 ```.box {box-sizing: border-box;}```
@@ -468,3 +468,278 @@ html {box-sizing: border-box;}
   box-sizing: inherit;}
 ```
 To understand the underlying idea, you can read [Ophir Box Model](https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/),[Ophir Box Model write-up](https://www.washington.edu/accesscomputing/webd2/student/unit3/module4/lesson1.html),[Ophir write-up on Box Model Application](https://www.washington.edu/accesscomputing/webd2/student/unit3/module4/lesson2.html),[OPhir Page Layout with CSS Article](https://www.washington.edu/accesscomputing/webd2/student/unit3/module6/lesson1.html),[Ophir Stylizing Navigation Menu With CSS](https://www.washington.edu/accesscomputing/webd2/student/unit3/module6/lesson2.html)
+# Module:4 Working with Typography and Color
+The typography concept in CSS is defined as one of the essential components for designing websites. The typography concept is about styling the pages, spacing properties, and proportions.<br>
+      
+This concept is used for improving the text which is more readability using proper font properties, text color properties, etc. Typography allows the users to define color, the shape of text, size, and spacing which are CSS properties so that the text is easily legibility and readability. The main properties of typography in CSS are the color of the text, the font size of text, the spacing of the line, etc.
+Here, I will be putting you through with working example
+# Working with CSS Typography with Examples
+Here, we will see about typography concept and its properties. The two main groups of this topography concept are font and text.
+# Typography properties in CSS are as follows:
+## 1. Color
+This property is used for coloring the texts or elements in website layouts such as foreground color, background color, the color of the text, etc.<br>
+      
+Create an html file in Vscode or any text editor you are family with, and push this live
+ ```
+<!DOCTYPE html>
+<html>
+<title>Ophir Training</title>
+<style>
+body {
+}
+.text1 {
+color: red
+}
+.text2 {
+color: #71ffb0;
+}
+.text3 {
+color: rgb(70, 98, 120);
+}
+.text4 {
+color: rgba(0, 0, 0, 0.4);
+}
+.text5 {
+color: hsl(15, 80%, 73%);
+}
+.text6 {
+color: hsla(18, 130%, 43%, 0.5);
+}
+</style>
+<body>
+<div class="text1">Color name is given directly</div>
+<div class="text2">This text have hexadecimal code for color</div>
+<div class="text3">This text uses rgb() color codes </div>
+<div class="text4">This text uses rgb color codes with alpha values like transparent or opaque</div>
+<div class="text5">This text uses hsl() color codes </div>
+<div class="text6">This text uses hsl color codes with alpha values like transparent or opaque </div>
+</body>
+</html>
+```
+      
+This should print the class texts in  color varieties
+ In the above program, we can see that we are specifying the color properties in topography which can be specified in different ways and shown in the above program with result if push live, color can be specified using its color name, hexadecimal code, rgb() color codes, hsl() color codes, etc.
+## 2. Font Property
+This property has other shorthand properties like font-family such as font-size, font-style, font-weight, etc in this topography concept.
+### Example 1: font-size property
+Create an html file, paste this code into the file created in your Vscode or any other text editor, save it and push it live and see the output
+```
+<!DOCTYPE html>
+<html>
+<title>Ophir.CSS</title>
+<style>
+body {
+}
+.text1 {
+font-size: medium;
+}
+.text2 {
+font-size: 30px;
+}
+.text3 {
+font-size: 5.2em;
+}
+.text4 {
+font-size: 140%;
+}
+.text5 {
+font-size: smaller;
+}
+.text6 {
+font-size: x-large;
+}
+</style>
+<body>
+<div class="text1">Default size can be declared as medium </div>
+<div class="text2">This text uses pixel values</div>
+<div class="text3">This text uses em values </div>
+<div class="text4">This text uses percentage values </div>
+<div class="text5">This text uses some relative keywords </div>
+<div class="text6">This text uses some absolute keywords </div>
+</body>
+</html>
+```
+### Example 2: font style
+Create an html file, paste this code into the file created in your Vscode or any other text editor, save it and push it live and see the output:
+```
+<!DOCTYPE html>
+<html>
+<title>Ophir Training </title>
+<style>
+body {
+}
+.text1 {
+font-style: normal;
+}
+.text2 {
+font-style: italic;
+}
+.text3 {
+font-style: oblique;
+}
+</style>
+<body>
+<div class="text1">Default font style with normal value</div>
+<div class="text2">This text uses italic font style values</div>
+<div class="text3">This text uses more slanted text than italic and is declared as oblique</div>
+</body>
+</html>
+```      
+### Example 3: font weight property
+Create an html file, paste this code into the file created in your Vscode or any other text editor, save it and push it live and see the output:
+```      
+<!DOCTYPE html>
+<html>
+<title>Ophir Training</title>
+<style>
+body {
+}
+.text1 {
+font-size: x-large;
+font-weight: normal;
+}
+.text2 {
+font-size: x-large;
+font-weight: bold;
+}
+.text3 {
+font-size: x-large;
+font-weight: 800;
+}
+</style>
+<body>
+<div class="text1">Default font style with normal value and font size as x-large </div>
+<div class="text2">This text uses bold for font weight values</div>
+<div class="text3">This text uses numeric values for specifying font weight </div>
+</body>
+</html>
+ ```     
+### Example 4: font family property
+Create an html file, paste this code into the file created in your Vscode or any other text editor, save it and push it live and see the output:
+```      
+<!DOCTYPE html>
+<html>
+<title>Ophir Training</title>
+<style>
+body {
+}
+.text1 {
+font-family: "Arial";
+}
+.text2 {
+font-family: Courier New;
+}
+.text3 {
+font-family: Times New Roman;
+}
+</style>
+<body>
+<div class="text1">This text displays in Areial font family </div>
+<div class="text2">This text displays in Courier New font family</div>
+<div class="text3">This text displays in Times New Roman font family</div>
+</body>
+</html>
+```      
+## 3. Spacing Property
+This property is used where there is spacing required such as line spacing, letter spacing, word spacing, etc.
+### Example 1
+Create an html file, paste this code into the file created in your Vscode or any other text editor, save it and push it live and see the output:
+```      
+<!DOCTYPE html>
+<html>
+<title>Ophir Training</title>
+<style>
+body {
+}
+.text1 {
+font-size: x-large;
+letter-spacing: normal;
+}
+.text2 {
+font-size: x-large;
+letter-spacing: 4px;
+}
+.text3 {
+font-size: x-large;
+letter-spacing: 1.2em;
+}
+.text4 {
+font-size: x-large;
+word-spacing: normal;
+}
+.text5 {
+font-size: x-large;
+word-spacing: 3px;
+}
+.text6 {
+font-size: x-large;
+word-spacing: 0.8em;
+}
+</style>
+<body>
+<div class="text1">Default letter spacing with normal value </div>
+<div class="text2">This text uses pixel values for letter spacing</div>
+<div class="text3">This text uses em values for letter spacing </div>
+<div class="text4">Default word spacing with normal value </div>
+<div class="text5">This text uses pixel values for word spacing</div>
+<div class="text6">This text uses em values word spacing </div>
+</body>
+</html>
+ ```     
+### Example 2: Other typography properties
+Other typography properties are not mostly used such as text alignment and text-decoration.
+Create an html file, paste this code into the file created in your Vscode or any other text editor, save it and push it live and see the output.
+```      
+<!DOCTYPE html>
+<html>
+<title>Ophir Training</title>
+<style>
+body {
+}
+.text1 {
+font-size: large;
+text-align: left;
+}
+.text2 {
+font-size: large;
+text-align: right;
+}
+.text3 {
+font-size: large;
+text-decoration: underline;
+}
+</style>
+<body>
+<div class="text1">This text displays at left </div>
+<div class="text2">This text displays at right </div>
+<div class="text3">This text displays text decoration with the text underlined </div>
+</body>
+</html>
+```      
+# Conclusion
+Here, we conclude that the CSS typography is used for the main property likes font, color, and spacing for text display.<br>
+      
+we have seen that the typography concept is used for designing website layout which contains text or elements with text that attracts the users to browse the websites. we have also seen the typography properties such as font properties like font- family, font-size, font-weight, and font-style, and the second main property is text properties like letter spacing, word spacing, text- alignment, etc.
+# Module 5: Responsive And Adaptive Design 
+# Objectives
+To understand the fundamental purposed and CSS features used to implement responsive and reactive designs.
+Generally, HTML is fundamentally responsive, or fluid. If you create a web page containing only HTML, with no CSS, and resize the window, the browser will automatically reflow the text to fit the viewport.
+# Responsive web design   
+Responsive web design (RWD) is a web design approach to make web pages that render well on all screen sizes and resolutions while ensuring good usability. It is the way to design for a multi-device web. In this article, we'll help you understand some techniques that can be used to master it. Responsive websites are websites that automatically resize to the screen size the website is being viewed on.
+# Reactive websites      
+Reactive websites (adaptive) displays a website especially designed for the device type the website is being viewed on.<br>
+While the default responsive behavior may sound like no solution is needed, long lines of text displayed full screen on a wide monitor can be difficult to read. If wide screen line length is reduced with CSS, such as by creating columns or adding significant padding, the site may look squashed for the user who narrows their browser window or opens the site on a mobile device.<br>
+      
+Creating a non-resizable web page by setting a fixed width doesn't work either; that leads to scroll bars on narrow devices and too much empty space on wide screens.<br>
+      
+Responsive web design is a design approach that addresses the range of devices and device sizes, enabling automatic adaption to the screen, whether the content is viewed on a tablet, phone, television, or watch.it isn't a separate technology — it is an approach, It is a term used to describe a set of best practices used to create a layout that can respond to any device being used to view the content.<br>
+    
+Note: Responsive websites are not always the best solution for web design.<br>
+      
+Firstly, understand the explanation of what a responsive website means and what it isn’t. There is much misunderstanding that the only way a website can be a mobile friendly website is to design it to be responsive, as in a WordPress website. This is wrong, you can design a website that adapts or provides an alternate display on mobile devices such as smartphones or tablets.  The difference is that responsive websites automatically display correctly on mobile devices as they resize to the display screen size.<br>
+      
+Reactive – Adaptive websites gives a totally different website version for the screen size allowing specific design for desktop, tablet or mobile.  Both the responsive and adaptive approaches are endorsed by the Google Mobile Friendly test.<br>
+Also, With adaptive websites you can choose what to display on your desktop version and what you want to display on mobile versions.  For instance you may have strong ‘call to action’ for mobile users such as “download our mobile app here” or even giving your mobile version a more app feel and look, click [here](http://mickkenyon.com/Micks_Blog/wp-content/uploads/2015/09/Screens.jpg) to see gadget different display.
+In creating a responsive and Adaptive design, Currently the most popular technique lies within responsive web design, favoring design that dynamically adapts to different browser and device viewports, changing layout and content along the way. This solution has the benefits of being either responsive or adaptive.
+To further our explanation on building a responsive and adaptive design, refer to CSS techniques in Module 6
+# Module 6: Advanced CSS techniques such as CSS Grid and Flexbox
