@@ -14,10 +14,10 @@ This article will take you through all the basic theory of CSS, and provide oppo
 <br> <a href="" target="_blank">Basic Knowledge </a>
 </details>
 <details>
-<summary><a href="" target="_blank">Module 1: Introduction to CSS </a></summary>
-<br><a href="" target="_blank">Getting Started with CSS </a>
-<br> <a href="" target="_blank">Adding CSS to our document </a> 
-<br> <a href="" target="_blank">Understanding Basics CSS Selectors</a>
+<summary><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#module-1-introduction-to-css" target="_blank">Module 1: Introduction to CSS </a></summary>
+<br><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#getting-started-with-css" target="_blank">Getting Started with CSS </a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#adding-css-to-our-document" target="_blank">Adding CSS to our document </a> 
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#understanding-basics-css-selectors" target="_blank">Understanding Basics CSS Selectors</a>
 <br> <a href="" target="_blank">CSS Properties and Value</a>
 </details>
 <details>
