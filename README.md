@@ -23,18 +23,18 @@ This article will take you through all the basic theory of CSS, and provide oppo
 <details>
 <summary><a href="" target="_blank">Module 2: Applying CSS style to HTML elements</a> </summary>
 <br><a href="" target="_blank">CSS External Stylesheet and it's Application</a>
-<br> CSS Internal Stylesheet and it's Application
-<br> CSS Inline Styles and it's Application
-<br>Playing with the CSS in this article
-<br>Summary
+<br><a href="" target="_blank"> CSS Internal Stylesheet and it's Application</a>
+<br> <a href="" target="_blank">CSS Inline Styles and it's Application </a>
+<br><a href="" target="_blank">Playing with the CSS in this article </a>
+<br><a href="" target="_blank">Summary </a>
 </details>
 <details>
-<summary>Module 3: The box Model and Layout </summary>
-<br>Objectives 
-<br> Box MOdel Behaviour
-<br> Standard and Alternative box model
-<br> Playing with the CSS in this article
-<br> Block Model References 
+<summary><a href="" target="_blank">Module 3: The box Model and Layout </a></summary>
+<br><a href="" target="_blank">Objectives </a>
+<br> <a href="" target="_blank">Box MOdel Behaviour</a>
+<br> <a href="" target="_blank">Standard and Alternative box model</a>
+<br> <a href="" target="_blank">Playing with the CSS in this article </a>
+<br> <a href="" target="_blank">Block Model References </a>
 </details>
 <details>
 <summary>Module 4: Working with Typography and Color </summary>
