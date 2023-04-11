@@ -1450,4 +1450,4 @@ Responsive web design is arguably one of the most important design principles in
       
 In this tutorial, we have designed a simple landing page using CSS Flexbox, Grid, and many other CSS properties. We have also made the page look good on Tablets and Mobile Screens.<br>
       
-If you have any issues in your journey of buiding this responsive project, you can hint us up at our twitter handle @instituteOphir, we will respond there.
+If you have any issues in your journey of buiding this responsive project, you can hint us up at our twitter handle [@instituteOphir](https://linktr.ee/Institute.Ophir), we will respond there.
