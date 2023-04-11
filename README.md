@@ -1023,15 +1023,21 @@ This brings us to the main activity. If you remember, I said that we were going 
 }
 ```
       
-This will create two columns inside of our showcase container. The first part will take up 60 percent of the container, and the second part will take up the remaining 40 percent of the container.
-The overflow visible will ensure that the image (if bigger than the container) will flow beyond the container.
+This will create two columns inside of our showcase container. The first part will take up 60 percent of the container, and the second part will take up the remaining 40 percent of the container.<br>
+      
+The overflow visible will ensure that the image (if bigger than the container) will flow beyond the container.<br>
+      
 Next, we need to set some space between the navigation area and the showcase area.
-grid-item-1,
+```
+ grid-item-1,
 .grid-item-2 {
   position: relative;
   top: 50px;
 }
+```
+      
 Now, we need to style both of our form inputs because they don't look so nice. We select the first input by its type (email) and select the second by its class name, btn.
+```      
 .showcase input[type='email'] {
   padding: 10px 70px 10px 0;
   font-size: 14px;
@@ -1051,7 +1057,9 @@ Now, we need to style both of our form inputs because they don't look so nice. W
   cursor: pointer;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
+```      
 Also maybe change the font of the supporting text:
+```     
 .showcase-form {
   margin: auto;
 }
@@ -1062,14 +1070,17 @@ Also maybe change the font of the supporting text:
   font-family: "poppins", sans-serif;
 
 }
-
-How to Build the Lower Part of the Page
-The lower part of the page is going to contain two sections, the stats section and the testimonials section.
-The stats container which displays the services offered by Skilllz will be made up of three divs, each of which houses a font awesome icon, an h3 of class title, and a paragraph p of class text.
-The testimonial container will hold the testimonials of three random people who learned using Skillz. I grabbed the pictures from unsplash.
-How to Build the Stats Section
-First, we are going to work on the stats section. The text is just a dummy 'lorem50' text to act as a filler for this demo.
+```
+# How to Build the Lower Part of the Page
+The lower part of the page is going to contain two sections, the stats section and the testimonials section.<br>
+      
+The stats container which displays the services offered by OPhir Institute will be made up of three divs, each of which houses a font awesome icon, an ```h3 ``` of class title, and a paragraph ```p``` of class text.
+The testimonial container will hold the testimonials of three random people who learned using Ophir Institute. I grabbed the pictures from unsplash.
+# How to Build the Stats Section
+First, we are going to work on the stats section. The text is just a dummy 'lorem50' text to act as a filler for this demo.<br>
+      
 Here is the markup for it:
+```      
 <div class="lower-container container">
       <section class="stats">
         <div class="flex">
@@ -1093,9 +1104,11 @@ Here is the markup for it:
           </div>
         </div>
       </section>
+```      
 This section will be displayed as a blank page. This is because we had set the color of our text in the whole body to white. So we have to add some styling.
-How to Apply CSS Styling to the Stats Section
+# How to Apply CSS Styling to the Stats Section
 First we need to apply the following styles:
+```      
 /* Centers the container, sets a maximum width
 .lower-container {
   margin: 120px auto;
@@ -1122,9 +1135,12 @@ First we need to apply the following styles:
   margin: 0, 20px;
   text-align: justify;
 }
-
-Notice that the font icons from Font Awesome are not visible. We will be working on that pretty soon.
+```  
+     
+Notice: If you push live you see that the font icons from Font Awesome are not visible. We will be working on that pretty soon.<br>
+      
 But before then, we will need to do something important. We do intend for all of the three stat divs to be aligned horizontally (side-by-side). To achieve that, we will once again be using CSS Flexbox:
+```      
 /* Display horizontally, put a little space around them */
 .flex {
   display: flex;
@@ -1146,9 +1162,12 @@ But before then, we will need to do something important. We do intend for all of
 .stats .fa {
   color: purple;
 }
-How to Build the Testimonials Section
-The second section inside of the lower container div of the page is the testimonials section. This section is going to be made up of three cards, each of which contains the image of the person (clipped inside a circle), their name, and the person's testimonial.
+```      
+# How to Build the Testimonials Section
+The second section inside of the lower container div of the page is the testimonials section. This section is going to be made up of three cards, each of which contains the image of the person (clipped inside a circle), their name, and the person's testimonial.<br>
+      
 Here is the markup for that:
+```      
 <section class="testimonials">
       <div class="container">
         <div class="testimonial grid-3">
@@ -1179,17 +1198,21 @@ Here is the markup for that:
         </div>
       </div>
     </section>
-
-How to Apply CSS Styling to it
+```
+# How to Apply CSS Styling to it
 First, we set the text color to black so we can see it:
+```      
 .testimonial {
   color: black;
   padding: 40px;
 }
-When applied, it should make the text visible and add some padding to the section:
-Note: Add Student Images with name  4.jpg, 5.jpg,6.jpg, and all this images should be in a folder named images
-Next, we set the image to take up the height of its parent container:
+``` 
+Note: Add Student Images with name  4.jpg, 5.jpg,6.jpg, and all this images should be in a folder named images  <br>
+      
+When applied, it should make the text visible and add some padding to the section:<br>
 
+Next, we set the image to take up the height of its parent container:
+```
 /* Wrap the image inside a cirle shape and set height to take up all of parent element */
 
 .testimonial img {
@@ -1202,8 +1225,10 @@ Next, we set the image to take up the height of its parent container:
 .testimonial h3{
   text-align: center;
 }
-If you check the final layout in the gif, you will notice that all three testimonial cards are aligned side-by-side on the same line.
+```      
+If you push live and  check the final layout in the gif, you will notice that all three testimonial cards are aligned side-by-side on the same line.
 So we will need to create a div of three equal columns using the CSS grid arrangement.
+```      
 /* Create a grid of three equal columns. Set a gap of 40 px between them */
 
 .grid-3 {
@@ -1221,8 +1246,9 @@ So we will need to create a div of three equal columns using the CSS grid arrang
   box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
                7px  7px 20px rgba(0, 0, 0, 0.2)
 }
-
+```      
 Finally, we style the circle div and position it relative to the top border of the card using CSS:
+ ```     
 .circle {
     background-color: transparent;
     border:3px solid purple;
@@ -1235,10 +1261,13 @@ Finally, we style the circle div and position it relative to the top border of t
     -webkit-border-radius:50%;
     width:90px;
 }
+```      
 Alright, now we're ready to move on to the footer section. Then we'll learn how to make the site responsive.
-How to build the Footer Section
-The final part of our landing page building process is to create the footer section. The footer section will comprise some copyright text, three extra navigation links, and a group of social media icons from Font Awesome.
+# How to build the Footer Section
+The final part of our landing page building process is to create the footer section. The footer section will comprise some copyright text, three extra navigation links, and a group of social media icons from Font Awesome.<br>
+      
 Here is the HTML Markup for the footer section of our landing page:
+```      
 <footer>
    <div class="container grid-3">
      <div class="copyright">
@@ -1260,9 +1289,10 @@ Here is the HTML Markup for the footer section of our landing page:
      </div>
    </div>
  </footer>
-
-How to Style the Footer
+```
+# How to Style the Footer
 First, we need to set the background colour for the footer section (as well as the color for all links) to white, like this:
+```      
 /* Add padding around the footer as well */
 
 footer {
@@ -1276,17 +1306,23 @@ footer a {
   color: white;
   margin: 0 10px;
 }
-If you check the first gif, you will notice that when I hover over any of the links inside of the footer, their color changes to a lighter shade of purple and a border also appears below them.
+```      
+If you push and check the first gif, you will notice that when I hover over any of the links inside of the footer, their color changes to a lighter shade of purple and a border also appears below them.<br>
+      
 We can make this happen using a :hover selector:
+```     
 footer a:hover {
   color: #9867C5;
   border-bottom: 2px solid #9867C5;
 }
-How to Set Media Queries to Make the Page Responsive
-It's now time to make our landing page more responsive. When building a website, it is important to have in mind that users will be viewing the site from different devices. So it is imperative to make the site layout responsive to improve the user experience across multiple devices.
+```      
+# How to Set Media Queries to Make the Page Responsive
+It's now time to make our landing page more responsive. When building a website, it is important to have in mind that users will be viewing the site from different devices. So it is imperative to make the site layout responsive to improve the user experience across multiple devices.<br>
+      
 In our CSS, we will define media queries which set breakpoints for the various screen widths of different devices and map a set of CSS rules for each screen size.
-How to Design for Tablets and Smaller Screens
+# How to Design for Tablets and Smaller Screens
 First, we will optimize our site's layout for users viewing from a tablet. In our CSS, we define the following style:
+```      
 /* Tablets and Under */
 
 @media(max-width: 768px) {
@@ -1294,7 +1330,9 @@ First, we will optimize our site's layout for users viewing from a tablet. In ou
   .grid-3 {
     grid-template-columns: 1fr;
   }
-Initially we had set two columns for the .grid class and 3 columns for the grid-3 class. Now, we want to make sure that all grid items take up just a single line.
+```      
+Initially we had set two columns for the ```.grid class```and 3 columns for the grid-3 class. Now, we want to make sure that all grid items take up just a single line.
+```      
 /* Align all text to the center. This will move all text, including form centrally */
 
 .showcase {
@@ -1340,7 +1378,7 @@ Initially we had set two columns for the .grid class and 3 columns for the grid-
       -webkit-border-radius:50%;
       width:90px;
   }
-
+```
 How to Design for Mobile Devices
 Many people may view the site from a mobile device which typically has the smallest screen size out of all devices. Because of this, creating a layout for mobile-sized screens is very important.
 How to Design for Mobile Devices
