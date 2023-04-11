@@ -37,14 +37,14 @@ This article will take you through all the basic theory of CSS, and provide oppo
 <br> <a href="" target="_blank">Block Model References </a>
 </details>
 <details>
-<summary>Module 4: Working with Typography and Color </summary>
-<br>CSS Typography Properties in CSS 
-<br> Font Property
-<br> Spacing Property
-<br> Conclusion
+<summary><a href="" target="_blank">Module 4: Working with Typography and Color</a> </summary>
+<br><a href="" target="_blank">CSS Typography Properties in CSS </a>
+<br> <a href="" target="_blank">Font Property </a>
+<br> <a href="" target="_blank">Spacing Property </a>
+<br> <a href="" target="_blank">Conclusion </a>
 </details>
 <details>
-<summary>Module 5:Responsive And Adaptive Design</summary>
+<summary><a href="" target="_blank">Module 5:Responsive And Adaptive Design</a></summary>
 <br> Advanced CSS techniques such as CSS Grid and Flexbox
 <br> Flexible Layouts and Grid
 <br> Conclusion
