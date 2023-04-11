@@ -811,11 +811,14 @@ Here is the markup for our navbar:
       
 On the div wrapping the elements inside this section (the navbar), <br>
       
-we register the container and flex class.
-•	.container: we will use this utility class in every section to make sure that the inner elements do not exceed a certain width which we'll specify in CSS
-•	.flex: we will use this utility class to display children elements in a horizontally aligned manner (side-by-side) using CSS Flexbox.
+we register the container and flex class.<br>
+      
+.container: we will use this utility class in every section to make sure that the inner elements do not exceed a certain width which we'll specify in CSS<br> 
+      
+.flex: we will use this utility class to display children elements in a horizontally aligned manner (side-by-side) using CSS Flexbox.<br>
 
-Inside the div we have an h1 with class of logo and two navigation links li>a with the outline classes, respectively.
+Inside the div we have an ```h1``` with class of logo and two navigation links ```li>a``` with the outline classes, respectively.<br>
+      
 At this point, our page will look all plain and bare like this:
 Ophir Institute
 •	Log in
