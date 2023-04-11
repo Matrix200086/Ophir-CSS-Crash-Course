@@ -9,20 +9,20 @@ This article will take you through all the basic theory of CSS, and provide oppo
 * Basic Familiarities with HTML as it will be discussed by other tutor in Ophir in the introduction to HTML module.
 # **Table of Contents**
 <details>
-<summary> Resources</summary>
-<br>Guides
-<br> Basic Knowledge
+<summary> <a href="" target="_blank">Resources</a></summary>
+<br><a href="" target="_blank">Guides </a>
+<br> <a href="" target="_blank">Basic Knowledge </a>
 </details>
 <details>
-<summary>Module 1: Introduction to CSS </summary>
-<br>Getting Started with CSS
-<br> Adding CSS to our document  
-<br> Understanding Basics CSS Selectors
-<br> CSS Properties and Value
+<summary><a href="" target="_blank">Module 1: Introduction to CSS </a></summary>
+<br><a href="" target="_blank">Getting Started with CSS </a>
+<br> <a href="" target="_blank">Adding CSS to our document </a> 
+<br> <a href="" target="_blank">Understanding Basics CSS Selectors</a>
+<br> <a href="" target="_blank">CSS Properties and Value</a>
 </details>
 <details>
-<summary>Module 2: Applying CSS style to HTML elements </summary>
-<br>CSS External Stylesheet and it's Application
+<summary><a href="" target="_blank">Module 2: Applying CSS style to HTML elements</a> </summary>
+<br><a href="" target="_blank">CSS External Stylesheet and it's Application</a>
 <br> CSS Internal Stylesheet and it's Application
 <br> CSS Inline Styles and it's Application
 <br>Playing with the CSS in this article
