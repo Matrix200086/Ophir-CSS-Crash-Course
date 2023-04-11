@@ -1379,12 +1379,13 @@ Initially we had set two columns for the ```.grid class```and 3 columns for the 
       width:90px;
   }
 ```
-How to Design for Mobile Devices
-Many people may view the site from a mobile device which typically has the smallest screen size out of all devices. Because of this, creating a layout for mobile-sized screens is very important.
-How to Design for Mobile Devices
-Many people may view the site from a mobile device which typically has the smallest screen size out of all devices. Because of this, creating a layout for mobile-sized screens is very important.
-First, we increase the height of our navigation area. Since it will be viewed from a smaller screen, we want the area more accentuated for the user.
+# How to Design for Mobile Devices
+Many people may view the site from a mobile device which typically has the smallest screen size out of all devices. Because of this, creating a layout for mobile-sized screens is very important.<br>
+      
+First, we increase the height of our navigation area. Since it will be viewed from a smaller screen, we want the area more accentuated for the user.<br>
+      
 Then, we define the following styles:
+```      
 /* Changes the alignment. The logo title stays at the top, the nav links will be below it */
 
 .navbar .flex {
@@ -1398,8 +1399,6 @@ Then, we define the following styles:
     color: white;
     border-bottom: 2px solid black;
   }
-
-
 /* Set light purple background on nav links, make it a bit round and add some spacing */
 
   .navbar ul {
@@ -1407,23 +1406,17 @@ Then, we define the following styles:
     border-radius: 5px;
     padding: 10px 0;
   }
-
-
 /* Align text to center */
 
   .showcase {
     height: auto;
     text-align: center;
   }
-
-
 /* Reduce font size */
 
 .little-info {
     font-size: 13px;
   }
-
-
 /* Reduce image width */
 
   .image {
@@ -1434,8 +1427,6 @@ Then, we define the following styles:
   .stat {
     margin-bottom: 40px;
   }
-
-
 /* Move circle once again */
 
 .circle {
@@ -1451,9 +1442,12 @@ Then, we define the following styles:
       width:90px;
   }
 }
-Wrapping Up
-FlexBox and Grid alignment are very powerful tools for laying out a web page however you want it to look.
-Responsive web design is arguably one of the most important design principles in web development. We have to consider the fact that our site will be viewed from various kinds of devices with different screen resolutions. Optimizing our site's layout for different screens will improve the user experience.
-In this tutorial, we have designed a simple landing page using CSS Flexbox, Grid, and many other CSS properties. We have also made the page look good on Tablets and Mobile Screens.
-If you have any issues in your journey of buiding this responsive project, you can hint us up at our twitter handle @instituteOphir, we will respond here 
-![image](https://user-images.githubusercontent.com/78272145/231151447-8e2ed365-6998-435c-b292-2c1000eef6b3.png)
+```      
+#Wrapping Up
+FlexBox and Grid alignment are very powerful tools for laying out a web page however you want it to look.<br>
+      
+Responsive web design is arguably one of the most important design principles in web development. We have to consider the fact that our site will be viewed from various kinds of devices with different screen resolutions. Optimizing our site's layout for different screens will improve the user experience.<br>
+      
+In this tutorial, we have designed a simple landing page using CSS Flexbox, Grid, and many other CSS properties. We have also made the page look good on Tablets and Mobile Screens.<br>
+      
+If you have any issues in your journey of buiding this responsive project, you can hint us up at our twitter handle @instituteOphir, we will respond there.
