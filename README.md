@@ -29,11 +29,11 @@ This article will take you through all the basic theory of CSS, and provide oppo
 <br><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#summary-1" target="_blank">Summary </a>
 </details>
 <details>
-<summary><a href="" target="_blank">Module 3: The box Model and Layout </a></summary>
-<br><a href="" target="_blank">Objectives </a>
-<br> <a href="" target="_blank">Box MOdel Behaviour</a>
-<br> <a href="" target="_blank">Standard and Alternative box model</a>
-<br> <a href="" target="_blank">Playing with the CSS in this article </a>
+<summary><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#module3-the-box-model-and-layout" target="_blank">Module 3: The box Model and Layout </a></summary>
+<br><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#objectives" target="_blank">Objectives </a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#box-model-behaviour" target="_blank">Box MOdel Behaviour</a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#to-add-complexity-there-is-a-standard-and-an-alternate-box-model" target="_blank">Standard and Alternative box model</a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#the-standard-css-box-model" target="_blank">Playing with the CSS in this article </a>
 <br> <a href="" target="_blank">Block Model References </a>
 </details>
 <details>
