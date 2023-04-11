@@ -792,7 +792,7 @@ First, make sure that your stylesheet file (.css) is properly linked to your HTM
 Mind you: You should have go live installed in your VsCode extension, this will give you access to push everytime to see the visual of the website you're building
 # How to Build the Navigation Bar
 The Navigation Bar section is going to be comprised of our site's name as well as two navigation links: 
-      Log in and check courses.<br>
+Log in and check courses.<br>
       
 Here is the markup for our navbar:
 ```      
@@ -819,12 +819,10 @@ we register the container and flex class.<br>
 
 Inside the div we have an ```h1``` with class of logo and two navigation links ```li>a``` with the outline classes, respectively.<br>
       
-At this point, our page will look all plain and bare like this:
-Ophir Institute
-•	Log in
-•	Check courses
-How to Apply CSS Styling to our Page
+# How to Apply CSS Styling to our Page
 We now have to apply some CSS rules to style our nav section the way we want. What we want to do first is set the base styling for our web page with the following code:
+      
+```      
 * {
   box-sizing: border-box;
   padding: 0;
@@ -852,7 +850,6 @@ h1 {
   line-height: 1.2;
 }
 
-
 h2 {
   font-size: 25px;
   font-weight: 300;
@@ -874,19 +871,15 @@ li {
   list-style-type: none;
 }
 
-
-
 p {
   font-size: 20px;
   margin: 10px 0;
 }
-
-With the default styles applied, our page will now look like this:
-Ophir Institute
-Log in 
-Check courses
-
+```
+     
 Next, we need to define the styling for our container class:
+      
+```      
 /* Centers it, sets a maximum width and makes sure elements can flow past it*/
 
 .container {
@@ -894,39 +887,46 @@ Next, we need to define the styling for our container class:
   max-width: 1200px;
   overflow: visible;
 }
-
-Now, our content will not exceed the maximum width specified.
-Ophir Institute
-Log in 
-Check courses
+```
 
 After that, we need to set the background color of our navbar section to purple:
+      
+```      
 /* Sets background color, height and padding*/
-
 .navbar {
   background-color: purple;
   height: 70px;
   padding: 0 30px;
 }
+```
+      
 Then we target only the h1 element inside the navbar and specify the following styles:
+```      
 /* Sets font size, reduces font-weight, adds margin and line height */
-
 .navbar h1 {
   font-size: 30px;
   font-weight: 300;
   margin: 10px 0;
   line-height: 1.2;
 }
+```
+      
 Now we need to display both child elements inside the container h1 and nav side-by-side using Flexbox.
+```      
 navbar .flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
-First, we set the display mode to flex. This will align the elements side by side by default.
-We then justify the content, adding a considerable space between each item using the space-between value. We align the items to appear at the center (middle) of the container and set its height to take up the entire container.
+```
+      
+First, we set the display mode to flex. This will align the elements side by side by default.<br>
+      
+We then justify the content, adding a considerable space between each item using the space-between value. We align the items to appear at the center (middle) of the container and set its height to take up the entire container. <br>
+      
 However, we also do not want both of our navigation link stacked on top of each other. Instead, we want them to be displayed side-by-side. Guess how we do that? With Flexbox!
+```      
 .navbar ul {
   display: flex;
 }
@@ -938,18 +938,26 @@ However, we also do not want both of our navigation link stacked on top of each 
   padding: 9px;
   margin: 0 10px;
 }
-
-If you watched the brief intro video, you will notice that whenever I hover over any of the links, the text color changes to a lighter shade of purple and a solid border appears below it.
+```
+      
+If you watched the brief intro video, you will notice that whenever I hover over any of the links, the text color changes to a lighter shade of purple and a solid border appears below it. <br>
+      
 We can implement this transition using the CSS :hover pseudo-element:
+```      
 .navbar a:hover {
   color: #9867C5;
   border-bottom: 3px solid #9867C5;
 }
+```
+      
 And with that, we have come to the end of the navbar section.
-How to Build the Showcase Area
-The showcase area is going to house the headline text, supporting text, a form for signing up new users, as well as a headline image.
-This section is going to be divided in two: the left side and the right side. In other words, it will be displayed as a grid of two units.
+# How to Build the Showcase Area
+The showcase area is going to house the headline text, supporting text, a form for signing up new users, as well as a headline image. <br>
+      
+This section is going to be divided in two: the left side and the right side. In other words, it will be displayed as a grid of two units.<br>
+      
 Here is the markup for this section:
+```      
 <section class="showcase">
         <div class="container">
             <div class="grid">
@@ -976,17 +984,22 @@ Here is the markup for this section:
 
         </div>
       </section>
-
+```
+      
 Note: Download a computer setup image and rename it as transparent.png
-How to Apply CSS Styling to our Showcase Area
+# How to Apply CSS Styling to our Showcase Area
 First, we set the height of the showcase section as well as a background color:
+```     
 .showcase {
   height: 300px;
   background-color: purple;
 }
-Note: I changed the color of h1 to white
+```      
+Note: I changed the color of h1 to white <br>
+      
 Next, we apply the following styles:
-/* Adds margin below the text */
+```
+ /* Adds margin below the text */
 .showcase p {
   margin-bottom: 30px;
 }
@@ -1000,12 +1013,16 @@ Next, we apply the following styles:
 .showcase-form {
   padding-left: 7px;
 }
+```      
 This brings us to the main activity. If you remember, I said that we were going to be creating two sections (grids) inside the showcase container. With the grid class registered on that container, we can align its content using CSS grid display like this:
+```      
 .grid {
   overflow: visible;
   display: grid;
   grid-template-columns: 60% 40%;
 }
+```
+      
 This will create two columns inside of our showcase container. The first part will take up 60 percent of the container, and the second part will take up the remaining 40 percent of the container.
 The overflow visible will ensure that the image (if bigger than the container) will flow beyond the container.
 Next, we need to set some space between the navigation area and the showcase area.
