@@ -951,7 +951,7 @@ However, we also do not want both of our navigation link stacked on top of each 
 }
 ```
       
-If you watched the brief intro video, you will notice that whenever I hover over any of the links, the text color changes to a lighter shade of purple and a solid border appears below it. <br>
+ you will notice that whenever you hover over any of the links, the text color changes to a lighter shade of purple and a solid border appears below it. <br>
       
 We can implement this transition using the CSS :hover pseudo-element:
 ```      
