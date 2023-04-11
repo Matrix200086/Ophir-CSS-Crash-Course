@@ -34,13 +34,13 @@ This article will take you through all the basic theory of CSS, and provide oppo
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#box-model-behaviour" target="_blank">Box MOdel Behaviour</a>
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#to-add-complexity-there-is-a-standard-and-an-alternate-box-model" target="_blank">Standard and Alternative box model</a>
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#the-standard-css-box-model" target="_blank">Playing with the CSS in this article </a>
-<br> <a href="" target="_blank">Block Model References </a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#examples-of-different-display-types" target="_blank">Block Model References </a>
 </details>
 <details>
-<summary><a href="" target="_blank">Module 4: Working with Typography and Color</a> </summary>
-<br><a href="" target="_blank">CSS Typography Properties in CSS </a>
-<br> <a href="" target="_blank">Font Property </a>
-<br> <a href="" target="_blank">Spacing Property </a>
+<summary><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#module4-working-with-typography-and-color" target="_blank">Module 4: Working with Typography and Color</a> </summary>
+<br><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#typography-properties-in-css-are-as-follows" target="_blank">CSS Typography Properties in CSS </a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#2-font-property" target="_blank">Font Property </a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#3-spacing-property" target="_blank">Spacing Property </a>
 <br> <a href="" target="_blank">Conclusion </a>
 </details>
 <details>
