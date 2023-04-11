@@ -18,15 +18,15 @@ This article will take you through all the basic theory of CSS, and provide oppo
 <br><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#getting-started-with-css" target="_blank">Getting Started with CSS </a>
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#adding-css-to-our-document" target="_blank">Adding CSS to our document </a> 
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#understanding-basics-css-selectors" target="_blank">Understanding Basics CSS Selectors</a>
-<br> <a href="" target="_blank">CSS Properties and Value</a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#types-of-selectors" target="_blank">CSS Properties and Value</a>
 </details>
 <details>
-<summary><a href="" target="_blank">Module 2: Applying CSS style to HTML elements</a> </summary>
-<br><a href="" target="_blank">CSS External Stylesheet and it's Application</a>
-<br><a href="" target="_blank"> CSS Internal Stylesheet and it's Application</a>
-<br> <a href="" target="_blank">CSS Inline Styles and it's Application </a>
-<br><a href="" target="_blank">Playing with the CSS in this article </a>
-<br><a href="" target="_blank">Summary </a>
+<summary><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#module-2-applying-css-styles-to-html-elements" target="_blank">Module 2: Applying CSS style to HTML elements</a> </summary>
+<br><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#external-stylesheet" target="_blank">CSS External Stylesheet and it's Application</a>
+<br><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#internal-stylesheet" target="_blank"> CSS Internal Stylesheet and it's Application</a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#inline-styles" target="_blank">CSS Inline Styles and it's Application </a>
+<br><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#playing-with-the-css-in-this-article" target="_blank">Playing with the CSS in this article </a>
+<br><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#summary-1" target="_blank">Summary </a>
 </details>
 <details>
 <summary><a href="" target="_blank">Module 3: The box Model and Layout </a></summary>
