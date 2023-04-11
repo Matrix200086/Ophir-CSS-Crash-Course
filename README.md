@@ -44,12 +44,12 @@ This article will take you through all the basic theory of CSS, and provide oppo
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#conclusion" target="_blank">Conclusion </a>
 </details>
 <details>
-<summary><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#module-5-responsive-and-adaptive-design" target="_blank">Module 5:Responsive And Adaptive Design</a></summary></details>
-<summary><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#module-6-advanced-css-techniques-such-as-css-grid-and-flexbox" target="_blank"> Module 6: Advanced CSS techniques e.g CSS Grid and Flexbox</a></summary>
-
+<summary><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#module-5-responsive-and-adaptive-design" target="_blank">Module 5:Responsive And Adaptive Design</a></summary>
 <br><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-create-the-html-boilerplate" target="_blank"> </a> 
 <br><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#lets-get-started" target="_blank">Getting Started with a Project</a> 
-<br><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-build-the-navigation-bar" target="_blank">Project Navigation bar </a> 
+<br><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-build-the-navigation-bar" target="_blank">Project Navigation bar </a>
+</details>
+<summary><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#module-6-advanced-css-techniques-such-as-css-grid-and-flexbox" target="_blank"> Module 6: Advanced CSS techniques e.g CSS Grid and Flexbox</a></summary>
 <br><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-apply-css-styling-to-our-page" target="_blank"> Project Page styling </a> 
 <br><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-apply-css-styling-to-our-showcase-area" target="_blank"> Showcase-area Styling </a> 
 <br><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-build-the-lower-part-of-the-page" target="_blank"> Project lower page</a> 
