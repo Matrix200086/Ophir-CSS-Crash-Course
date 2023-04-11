@@ -41,21 +41,14 @@ This article will take you through all the basic theory of CSS, and provide oppo
 <br><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#typography-properties-in-css-are-as-follows" target="_blank">CSS Typography Properties in CSS </a>
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#2-font-property" target="_blank">Font Property </a>
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#3-spacing-property" target="_blank">Spacing Property </a>
-<br> <a href="" target="_blank">Conclusion </a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#conclusion" target="_blank">Conclusion </a>
 </details>
 <details>
-<summary><a href="" target="_blank">Module 5:Responsive And Adaptive Design</a></summary>
+<summary><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#module-5-responsive-and-adaptive-design" target="_blank">Module 5:Responsive And Adaptive Design</a></summary>
 <br> <a href="" target="_blank">Advanced CSS techniques such as CSS Grid and Flexbox</a>
 <br> <a href="" target="_blank">Flexible Layouts and Grid </a>
 <br> <a href="" target="_blank">Conclusion</a>
 </details>
-<details>
-<summary><a href="" target="_blank">Module 5:Responsive And Adaptive Design</a></summary>
-<br> <a href="" target="_blank">Advanced CSS techniques such as CSS Grid and Flexbox</a>
-<br> <a href="" target="_blank">Flexible Layouts and Grid </a>
-<br> <a href="" target="_blank">Conclusion</a>
-</details>
-
 #  **Module 1: Introduction to CSS**
 #  **Prerequisites**
 Before starting this module,you should have:
