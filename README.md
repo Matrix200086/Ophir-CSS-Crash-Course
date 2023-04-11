@@ -44,9 +44,15 @@ This article will take you through all the basic theory of CSS, and provide oppo
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#conclusion" target="_blank">Conclusion </a>
 </details>
 <details>
-<summary><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#module-5-responsive-and-adaptive-design" target="_blank">Module 5:Responsive And Adaptive Design</a></summary>
+<summary><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#module-5-responsive-and-adaptive-design" target="_blank">Module 5:Responsive And Adaptive Design</a></summary></details>
 <summary><a href="" target="_blank">Advanced CSS techniques such as CSS Grid and Flexbox</a></summary>
-<br> 
+<br> <a href="" target="_blank"> </a> 
+<br> <a href="" target="_blank"> </a> 
+<br> <a href="" target="_blank"> </a> 
+<br> <a href="" target="_blank"> </a> 
+<br> <a href="" target="_blank"> </a> 
+<br> <a href="" target="_blank"> </a> 
+<br> <a href="" target="_blank"> </a> 
 <br> <a href="" target="_blank"> </a>
 <br> <a href="" target="_blank"></a>
 </details>
