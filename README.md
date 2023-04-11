@@ -45,9 +45,10 @@ This article will take you through all the basic theory of CSS, and provide oppo
 </details>
 <details>
 <summary><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#module-5-responsive-and-adaptive-design" target="_blank">Module 5:Responsive And Adaptive Design</a></summary>
-<br> <a href="" target="_blank">Advanced CSS techniques such as CSS Grid and Flexbox</a>
-<br> <a href="" target="_blank">Flexible Layouts and Grid </a>
-<br> <a href="" target="_blank">Conclusion</a>
+<summary><a href="" target="_blank">Advanced CSS techniques such as CSS Grid and Flexbox</a></summary>
+<br> 
+<br> <a href="" target="_blank"> </a>
+<br> <a href="" target="_blank"></a>
 </details>
 
 
