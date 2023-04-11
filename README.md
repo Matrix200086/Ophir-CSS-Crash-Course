@@ -758,7 +758,8 @@ Each of these sections will teach you some new CSS and web development skills an
 # How to Create the HTML Boilerplate
 If you have emmet installed in your IDE, you can generate an HTML boilerplate for your project by typing ! and clicking the enter or tab key on your keyboard.
 If not, you can copy this boilerplate code and paste it into your code editor:
-
+      
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -774,19 +775,27 @@ If not, you can copy this boilerplate code and paste it into your code editor:
  
 </body>
 </html>
-How to Use Font Awesome Icons
-As you can see in one of the shots, we will be using some font icons to give better swap to our service section.
+```  
+      
+# How to Use Font Awesome Icons
+Here, we will be using some font icons to give better swap to our service section.<br>
+      
 For this, we will be using font awesome from the CDN. If you created an HTML biolerplate by yourself, copy the following link tag and paste it into your head tag:
-
+```
 `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
   crossorigin="anonymous" referrerpolicy="no-referrer" />
-Let's Get Started
-First, make sure that your stylesheet file (.css) is properly linked to your HTML page.  
-
-If you push go live based on what we have been doing with justification, Hello World! Should display on your screen, that 
-How to Build the Navigation Bar
-The Navigation Bar section is going to be comprised of our site's name as well as two navigation links: Log in and check courses.
+```   
+      
+# Let's Get Started
+First, make sure that your stylesheet file (.css) is properly linked to your HTML page. <br>
+      
+Mind you: You should have go live installed in your VsCode extension, this will give you access to push everytime to see the visual of the website you're building
+# How to Build the Navigation Bar
+The Navigation Bar section is going to be comprised of our site's name as well as two navigation links: 
+      Log in and check courses.<br>
+      
 Here is the markup for our navbar:
+```      
 <div class="navbar">
         <div class="container flex">
           <h1 class="logo">Ophir Institute</h1>
@@ -798,8 +807,11 @@ Here is the markup for our navbar:
             </nav>
         </div>
       </div>
-
-On the div wrapping the elements inside this section (the navbar), we register the container and flex class.
+```
+      
+On the div wrapping the elements inside this section (the navbar), <br>
+      
+we register the container and flex class.
 •	.container: we will use this utility class in every section to make sure that the inner elements do not exceed a certain width which we'll specify in CSS
 •	.flex: we will use this utility class to display children elements in a horizontally aligned manner (side-by-side) using CSS Flexbox.
 
