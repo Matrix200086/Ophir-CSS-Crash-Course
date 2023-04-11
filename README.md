@@ -45,7 +45,7 @@ This article will take you through all the basic theory of CSS, and provide oppo
 </details>
 <details>
 <summary><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#module-5-responsive-and-adaptive-design" target="_blank">Module 5:Responsive And Adaptive Design</a></summary></details>
-<summary><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#module-6-advanced-css-techniques-such-as-css-grid-and-flexbox" target="_blank">Module 6: Advanced CSS techniques such as CSS Grid and Flexbox</a></summary>
+<summary><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#module-6-advanced-css-techniques-such-as-css-grid-and-flexbox" target="_blank"> Module 6: Advanced CSS techniques e.g CSS Grid and Flexbox</a></summary>
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-create-the-html-boilerplate" target="_blank"> </a> 
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#lets-get-started" target="_blank"> </a> 
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-build-the-navigation-bar" target="_blank"> </a> 
@@ -54,10 +54,12 @@ This article will take you through all the basic theory of CSS, and provide oppo
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-build-the-lower-part-of-the-page" target="_blank"> </a> 
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-build-the-stats-section" target="_blank"> </a> 
 <br> <a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-build-the-testimonials-section" target="_blank"> </a>
-<br> <a href="" target="_blank"></a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-build-the-footer-section" target="_blank"></a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-set-media-queries-to-make-the-page-responsive" target="_blank"></a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-design-for-tablets-and-smaller-screens" target="_blank"></a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#how-to-design-for-mobile-devices" target="_blank"></a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#wrapping-up" target="_blank"></a>
 </details>
-
-
 #  **Module 1: Introduction to CSS**
 #  **Prerequisites**
 Before starting this module,you should have:
