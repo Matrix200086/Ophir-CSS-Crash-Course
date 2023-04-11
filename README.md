@@ -45,9 +45,15 @@ This article will take you through all the basic theory of CSS, and provide oppo
 </details>
 <details>
 <summary><a href="" target="_blank">Module 5:Responsive And Adaptive Design</a></summary>
-<br> Advanced CSS techniques such as CSS Grid and Flexbox
-<br> Flexible Layouts and Grid
-<br> Conclusion
+<br> <a href="" target="_blank">Advanced CSS techniques such as CSS Grid and Flexbox</a>
+<br> <a href="" target="_blank">Flexible Layouts and Grid </a>
+<br> <a href="" target="_blank">Conclusion</a>
+</details>
+<details>
+<summary><a href="" target="_blank">Module 5:Responsive And Adaptive Design</a></summary>
+<br> <a href="" target="_blank">Advanced CSS techniques such as CSS Grid and Flexbox</a>
+<br> <a href="" target="_blank">Flexible Layouts and Grid </a>
+<br> <a href="" target="_blank">Conclusion</a>
 </details>
 
 #  **Module 1: Introduction to CSS**
