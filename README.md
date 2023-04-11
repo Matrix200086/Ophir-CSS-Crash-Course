@@ -9,9 +9,9 @@ This article will take you through all the basic theory of CSS, and provide oppo
 * Basic Familiarities with HTML as it will be discussed by other tutor in Ophir in the introduction to HTML module.
 # **Table of Contents**
 <details>
-<summary> <a href="" target="_blank">Resources</a></summary>
-<br><a href="" target="_blank">Guides </a>
-<br> <a href="" target="_blank">Basic Knowledge </a>
+<summary> <a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#prerequisites" target="_blank">Resources</a></summary>
+<br><a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#guides" target="_blank">Guides </a>
+<br> <a href="https://github.com/Matrix200086/Ophir-write-up/edit/main/README.md#what-is-css-" target="_blank">Basic Knowledge </a>
 </details>
 <details>
 <summary><a href="https://github.com/Matrix200086/Ophir-write-up/blob/main/README.md#module-1-introduction-to-css" target="_blank">Module 1: Introduction to CSS </a></summary>
