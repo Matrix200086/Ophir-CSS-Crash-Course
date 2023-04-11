@@ -1443,7 +1443,7 @@ Then, we define the following styles:
   }
 }
 ```      
-#Wrapping Up
+# Wrapping Up
 FlexBox and Grid alignment are very powerful tools for laying out a web page however you want it to look.<br>
       
 Responsive web design is arguably one of the most important design principles in web development. We have to consider the fact that our site will be viewed from various kinds of devices with different screen resolutions. Optimizing our site's layout for different screens will improve the user experience.<br>
